@@ -1,0 +1,67 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    display: flexs;
+    
+
+}
+.box{
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+
+}
+#species{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+    color: rgb(133, 8, 106);
+}
+
+#img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.triple{
+    display: flex;
+    flex-direction: column;
+}
+#bengal{
+    margin: 5px 0px;
+    font-weight: 800;
+    font-size: 16px;
+
+}
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2px 10px;
+}
+.typo{
+    font-size: 14px;
+    color: rgb(156, 154, 154);
+}
+.typo1{
+    color: rgb(240, 96, 178);
+}
+.about{
+    margin: 15px 5px 5px 10px;
+}
+#para{
+    color: rgb(218, 31, 31);
+}
+#rest1{
+    font-size: 20px;
+    font-weight: 600;
+    color: blue;
+}
+#para2{
+    margin-left: 10px;
+    font-weight: 600;
+    color: chocolate;
+}
