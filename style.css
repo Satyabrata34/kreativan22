@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Spartan: wght@100;200;300;400;500;600;700; 800;900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+    
+}
+body{
+    height: 100px;
+    width: 800px;
+    
+    
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+}
+#header li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+    color: rgb(6, 199, 135);
+    font-weight: 800;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+#navbar li a:hover,
+#navbar li a.active{
+    color: #088178;
+}
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+#mobile{
+    display: none;
+    align-items: center;
+}
+#close{
+    display: none;
+}
+.section-p1{
+    padding: 40px 80px;
+}
+#hero{
+    background-image: url("image/gym2.jpg");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+h1{
+    font-size: 30px;
+    font-weight: 100;
+    padding-bottom: 10px;
+
+}
+h2{
+    font-size: 30px;
+    font-weight: 100;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+#mobile{
+    display: none;
+    align-items: center;
+}
+#close{
+    display: none;
+}
+img{
+    height: 100px;
+    width: 70px;
+    
+}
+#hero button{
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 3px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding: 9px 20px 9px 15px;
+    text-align: center;
+    background-color: rgb(15, 177, 31);
+}
+#hero p{
+    color: rgb(139, 141, 142);
+    padding-top: 6px;
+    font-size: 10px;
+}
+b{
+    color: rgb(115, 120, 121);
+}
